@@ -1,55 +1,120 @@
-📔 CSV Contact Book (CLI)
-A lightweight, terminal-based contact management system powered by Python. This tool allows users to store, search, update, and delete contacts using a persistent contacts.csv file.
+# 📔 CLI Contact Book (CSV-Powered)
 
-🚀 Features
-Persistent Storage: All data is saved in a standard CSV format.
+A simple and efficient **Command Line Contact Book** built using Python.
+This application allows users to store, manage, search, update, and delete contacts using a CSV file.
 
-Duplicate Prevention: Automatically checks if a name already exists before adding.
+---
 
-Search Functionality: Supports partial name matching to find contacts quickly.
+## 🚀 Features
 
-Full CRUD Operations:
+* ➕ Add new contacts (Name, Phone, Email)
+* 📋 View all saved contacts
+* 🔍 Search contacts with **partial name matching**
+* ✏️ Update existing contacts
+* ❌ Delete contacts
+* 🛡️ Prevent duplicate contact names
+* 📂 Automatic CSV file creation
+* 🧾 Clean and simple CLI interface
 
-Create new contacts.
+---
 
-Read/View all saved contacts.
+## 🛠️ Technologies Used
 
-Update existing contact details.
+* Python
+* CSV Module
+* OS Module
 
-Delete unwanted entries.
+---
 
-Auto-Initialization: Automatically creates the contacts.csv file with headers if it doesn't exist.
+## 📁 File Structure
 
-🛠️ Requirements
-Python 3.x
+```
+📦 CLI-Contact-Book
+ ┣ 📜 contacts.csv   # Stores contact data
+ ┣ 📜 main.py        # Main Python program
+ ┗ 📜 README.md      # Project documentation
+```
 
-No external libraries required (uses built-in csv and os modules).
+---
 
-📥 Installation & Usage
-Clone the repository:
+## ▶️ How to Run
 
-Bash
-git clone https://github.com/your-username/contact-book-cli.git
-cd contact-book-cli
-Run the application:
+1. Clone the repository:
 
-Bash
-python contact_book.py
-Navigate the Menu:
-Follow the on-screen prompts (1-6) to manage your contact list.
+```bash
+git clone https://github.com/your-username/cli-contact-book.git
+```
 
-📊 CSV Structure
-The data is stored in the following format:
-| Name | Phone | Email |
-| :--- | :--- | :--- |
-| John Doe | 123-456-7890 | john@example.com |
+2. Navigate to the project folder:
 
-📝 To-Do / Future Improvements
-[ ] Add input validation for phone numbers and email formats.
+```bash
+cd cli-contact-book
+```
 
-[ ] Implement a prettier table view using the tabulate library.
+3. Run the program:
 
-[ ] Add a confirmation prompt before deleting a contact.
+```bash
+python main.py
+```
 
-📄 License
-This project is open-source and available under the MIT License.
+---
+
+## 💻 Usage
+
+After running the program, you will see:
+
+```
+📔 Contact Book
+1. Add Contact
+2. View All Contact
+3. Search Contact
+4. Update Contact
+5. Delete Contact
+6. Exit
+```
+
+* Choose an option by entering a number.
+* Follow on-screen prompts.
+
+---
+
+## 📌 Example
+
+```
+Name: John Doe
+Phone: 9876543210
+Email: john@example.com
+
+Contact added successfully!
+```
+
+---
+
+## ⚡ Improvements You Can Add
+
+* 📊 Table formatting using `tabulate`
+* 📱 Phone number validation
+* 📧 Email validation
+* 🔒 Data encryption
+* 🖥️ GUI version using Tkinter or PyQt
+* 🌐 Convert to a web app (Flask/Django)
+
+---
+
+## 🐞 Known Issues
+
+* Update function currently adds a new contact instead of modifying existing one
+* No strict validation for phone/email
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available
