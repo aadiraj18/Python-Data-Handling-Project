@@ -118,3 +118,118 @@ Feel free to fork this repo and submit a pull request.
 ## 📄 License
 
 This project is open-source and available
+
+
+
+# 🎓 Student Marks Analyzer (Python CLI Project)
+
+A simple command-line based Python program to manage and analyze student marks. This project allows users to input student data and generate a structured report with useful statistics.
+
+---
+
+## 🚀 Features
+
+* ➕ Add multiple students with their marks
+* ❌ Prevent duplicate student entries
+* 📊 Automatically calculate:
+
+  * Average marks
+  * Highest marks (with student names)
+  * Lowest marks (with student names)
+  * Total number of students
+* 📋 Display a clean report with detailed marks
+* ⚠️ Handles invalid inputs (non-numeric marks)
+
+---
+
+## 🛠️ Technologies Used
+
+* Python 3
+* Built-in functions (`max`, `min`, `sum`, `list`, `dict`)
+* Exception handling (`try-except`)
+
+---
+
+## 📂 Project Structure
+
+```
+student-marks-analyzer/
+│
+├── main.py        # Main Python program
+└── README.md      # Project documentation
+```
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/student-marks-analyzer.git
+```
+
+2. Navigate to the project folder:
+
+```
+cd student-marks-analyzer
+```
+
+3. Run the program:
+
+```
+python main.py
+```
+
+---
+
+## 💡 Usage
+
+* Enter student names and marks when prompted
+* Type `done` to finish data entry
+* View the generated report instantly
+
+---
+
+## 🧠 Example Output
+
+```
+Student marks report 📝
+------------------------------
+Total student: 3
+Average marks: 78.33
+Highest marks: 90 by Aadi
+Lowest marks: 65 by Rahul
+------------------------------
+Detailed Marks 📝
+ - Aadi: 90
+ - Rahul: 65
+ - Neha: 80
+```
+
+---
+
+## ✨ Future Improvements
+
+* Save data to a file (CSV/JSON)
+* Add grade classification (A, B, C, etc.)
+* Create a GUI version using Tkinter
+* Add sorting (rank-wise display)
+
+---
+
+## 👨‍💻 Author
+
+**Aadi Raj**
+B.Tech CSE (Data Science)
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
+
