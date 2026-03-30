@@ -42,22 +42,10 @@ This application allows users to store, manage, search, update, and delete conta
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/cli-contact-book.git
+git clone https://github.com/aadiraj18/Python-Data-Handling-Project.git
+cd Python-Data-Handling-Project
+python contact_book.py
 ```
-
-2. Navigate to the project folder:
-
-```bash
-cd cli-contact-book
-```
-
-3. Run the program:
-
-```bash
-python main.py
-```
-
----
 
 ## 💻 Usage
 
@@ -155,30 +143,18 @@ A simple command-line based Python program to manage and analyze student marks. 
 ```
 student-marks-analyzer/
 │
-├── main.py        # Main Python program
-└── README.md      # Project documentation
+├── student_marks_analyzer.py   # Main Python program
+└── README.md                  # Project documentation
 ```
 
 ---
 
 ## ▶️ How to Run
 
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/student-marks-analyzer.git
-```
-
-2. Navigate to the project folder:
-
-```
-cd student-marks-analyzer
-```
-
-3. Run the program:
-
-```
-python main.py
+```bash
+git clone https://github.com/aadiraj18/student-marks-analyzer.git
+cd Python-Data-Handling-Project
+python student_marks_analyzer.py
 ```
 
 ---
@@ -196,7 +172,7 @@ python main.py
 ```
 Student marks report 📝
 ------------------------------
-Total student: 3
+Total students: 3
 Average marks: 78.33
 Highest marks: 90 by Aadi
 Lowest marks: 65 by Rahul
@@ -225,11 +201,6 @@ B.Tech CSE (Data Science)
 
 ---
 
-## 📄 License
+## ⭐ Support
 
-This project is open-source and free to use.
-
----
-
-⭐ If you like this project, consider giving it a star on GitHub!
-
+If you like this project, consider giving it a star ⭐ on GitHub!
